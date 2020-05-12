@@ -4,6 +4,8 @@ console.log("This is the first line of code in app.js.");
 
 const usingSTO=()=>{
     console.log("yeah")
+    setTimeout(usingSTO, 2000)
+
   }
   
 
