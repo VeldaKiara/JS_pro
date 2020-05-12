@@ -7,14 +7,5 @@ const usingSTO=()=>{
     setTimeout(usingSTO, 2000)
 
   }
-  
-
-
-
-
-
-
-
-
-// Keep the line below as the last line of code:
+  // Keep the line below as the last line of code:
 console.log("This is the last line of code in app.js.");
