@@ -12,3 +12,8 @@ const inventory = {
       reject('That item is sold out.');
     }
   }
+  // adding another function
+  const orderSunglasses=() =>{
+    return new Promise(myExecutor);
+  };
+  
