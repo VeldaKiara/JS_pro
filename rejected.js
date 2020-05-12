@@ -10,5 +10,8 @@ const handleSuccess=(resolvedValue) =>{
 const handleFailure =(rejectionReason)=>{
     console.log(rejectionReason)
   }
+  //checkInventory(order)
+  //.then(handleSuccess, handleFailure);
   checkInventory(order)
-  .then(handleSuccess, handleFailure);
+  .catch()
+
