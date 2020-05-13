@@ -13,7 +13,6 @@ function nativePromiseDinner() {
 async function announceDinner() {
     let meal = await brainstormDinner();
     console.log(`I'm going to make ${meal} for dinner.`);
-  
-  
 }
+announceDinner();
 
