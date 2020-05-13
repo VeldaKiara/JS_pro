@@ -12,9 +12,14 @@ function withConstructor(num){
     .then((resolveValue) => {
     console.log(` withConstructor(0) returned a promise which resolved to: ${resolveValue}.`);
   })
-  
-  // Write your code below:
-  
+  //addition of an async function
+  async function withAsync(num){
+    if (num === 0){
+        return 'zero';
+      } else {
+        return 'not zero';
+      }
+  }  
   
   
   
