@@ -1,5 +1,8 @@
 const {shopForBeans, soakTheBeans, cookTheBeans} = require('./lib6.js');
 
 async function makeBeans(){
-    const type = await shopForBeans();
+    let type = await shopForBeans();
+    let isSoft = await soakTheBeans(type);
+    let dinner = await cookTheBeans(isSoft);
+    console.log(dinner);
   }
