@@ -21,7 +21,10 @@ function withConstructor(num){
       }
   }  
   
-  
+  withAsync(100)
+  .then((resolveValue) => {
+  console.log(` withAsync(100) returned a promise which resolved to: ${resolveValue}.`);
+})
   
   
   
